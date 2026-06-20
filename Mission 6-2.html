@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+
+         <meta charset="UTF-8">
+         <title>資格勉強管理アプリ</title>
+         <style>
+              body {
+                    text-align: center;
+                    font-family: sans-serif;
+                    margin-top: 30px;
+                }
+              input {
+                    width: 250px;
+                }
+                #displayArea {
+                    margin: 0 auto;
+                 }
+        </style>
+  </head>
+<body>
+
+    <h1>資格勉強管理アプリ</h1>
+
+    <p>資格名</p>
+    <input type="text" id="studyName">
+
+    <p>勉強時間</p>
+    <input type="number" id="studyTime">
+
+    <button onclick="addStudy()">追加</button>
+
+    <h2>勉強記録</h2>
+    <div id="displayArea"></div>
+
+    <h2>合計勉強時間</h2>
+    <div id="totalTime">0時間</div>
+
+    <script src="mission 6-2.js"></script>
+
+</body>
+</html>
